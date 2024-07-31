@@ -1,0 +1,37 @@
+@import url('../../index.css');
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    height: 80px;
+    background-color: var(--white);
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.navbar-container .links a {
+    text-decoration: none;
+    color: var(--erie-black);
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.4;
+}
+
+.navbar-container .links a:hover,
+.navbar-container .links a.active-link {
+    opacity: 1;
+}
+
+.navbar-container .links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+img.logotype-dev-comunica {
+    width: 235px;
+    height: auto;
+}

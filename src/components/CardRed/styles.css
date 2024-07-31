@@ -1,0 +1,19 @@
+@import url('../../index.css');
+@import url('../CardBlue/styles.css');
+
+.card-red-container .icon-container {
+    border: 3px solid var(--folly);
+    color: var(--folly);
+}
+
+.card-red-container {
+    width: 100%;
+    padding: 3px;
+    height: min-content;
+    border-radius: 15px;
+    background: linear-gradient(180deg,
+            var(--folly) 0%,
+            var(--black) 100%);
+    flex: 1 1 250px;
+    min-width: 250px;
+}

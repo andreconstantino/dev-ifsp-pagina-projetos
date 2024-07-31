@@ -1,0 +1,332 @@
+@import url('../../index.css');
+
+.container-main-home .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    gap: 40px;
+}
+
+.container-main-home .header .header-child,
+.container-main-home .about .about-child {
+    width: 100%;
+}
+
+.container-main-home .header .header-child p {
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.container-main-home .header .header-child h1.main-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+}
+
+.container-main-home .header .header-child h2.main-subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 56px;
+    font-weight: 300;
+}
+
+/* styles for about */
+.container-main-home .about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+    gap: 70px;
+}
+
+.container-main-home .about .about-child h3.subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.tags-container .tags-1,
+.tags-container .tags-2,
+.tags-container .tags-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.tag {
+    padding: 12px 24px;
+    background-color: aqua;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    color: var(--white);
+}
+
+.tags-1 :first-child,
+.tags-3 :last-child {
+    background-color: var(--palatinate-blue);
+}
+
+.tags-2 .tag {
+    background-color: var(--tropical-indigo);
+}
+
+.tags-1 :last-child,
+.tags-3 :first-child {
+    background-color: var(--folly);
+}
+
+h3.slider-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: right;
+}
+
+p.slider-subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+.slider-section {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.teacher-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    gap: 80px;
+    margin-bottom: 150px;
+}
+
+.teacher-container .teacher-img {
+    width: 300px;
+    height: 300px;
+}
+
+.teacher-container .teacher-text .teacher-name {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--erie-black);
+}
+
+.teacher-container .teacher-text .teacher-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--erie-black);
+    opacity: 0.6;
+    margin-bottom: 36px;
+}
+
+.teacher-container .teacher-text .teacher-about {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+    color: var(--black);
+}
+
+.experiences-container {
+    background-color: var(--erie-black);
+    color: var(--white);
+    margin-bottom: 150px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.experiences-container h1.experience-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.experiences-container p.experience-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    opacity: 0.6;
+}
+
+/* .container-main-home img.ilustration-1 {
+    position: absolute;
+    left: -152px;
+}
+
+.container-main-home img.ilustration-2 {
+
+    right: -18px;
+    object-fit: ;
+} */
+
+.slider-comment-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    position: relative;
+    width: calc(100vw - 20px);
+    overflow: hidden;
+}
+
+.slide-comment-track {
+    display: flex;
+    width: auto;
+    animation: scroll 90s linear infinite;
+    gap: 14px;
+}
+
+.slide-comment-track:hover {
+    animation-play-state: running;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% + 20px));
+    }
+}
+
+/* styles for projects container */
+
+.projects-container {
+    margin-bottom: 120px;
+}
+
+.projects-container h1.projects-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--erie-black);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projects-container .btn-projects-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.projects-container .btn-projects-container a button {
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid var(--erie-black);
+    color: var(--erie-black);
+    padding: 14px 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.projects-container .btn-projects-container a button.active-link,
+.projects-container .btn-projects-container a button:hover {
+    color: var(--white);
+    background-color: var(--erie-black);
+}
+
+/* styles for social media container */
+
+/* img.social-media-image {
+    width: 100px;
+    height: auto;
+} */
+
+.social-medias-container .final-content {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 12%; */
+}
+
+.social-medias-container iframe {
+    border: 5px solid var(--black);
+    border-radius: 30px;
+}
+
+.social-medias-container p.social-media-text {
+    width: 400px;
+    position: absolute;
+    left: 20%;
+    margin-top: -25px
+}
+
+.social-medias-container p.social-media-title {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 100%;
+    color: var(--black);
+    position: absolute;
+    left: 30%;
+    margin-top: 32px;
+}
+
+#frame {
+    width: 400px;
+    height: 700px;
+    overflow: hidden;
+}
+
+p.profile-name {
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    transform: rotate(90deg);
+    margin-left: 367px;
+    margin-top: -110px;
+    width: min-content;
+}

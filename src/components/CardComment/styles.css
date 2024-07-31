@@ -1,0 +1,51 @@
+@import url('../../index.css');
+
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    color: var(--erie-black);
+    height: min-content;
+}
+
+.comment-container p.comment-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.comment-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    align-items: center;
+    gap: 18px;
+    text-align: left;
+}
+
+.comment-info p.dev-name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: -5px;
+}
+
+.comment-info p.dev-function {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 23px;
+    opacity: 0.6;
+}
+
+.comment-info img.comment-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
