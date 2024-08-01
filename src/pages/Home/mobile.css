@@ -1,0 +1,39 @@
+@import url('./styles.css');
+
+@media screen and (max-width: 1280px) {
+    .container-main-home .header,
+    .container-main-home .about {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .teacher-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    .final-content img {
+        display: none;
+    }
+
+    .social-medias-container p.social-media-text {
+        width: 400px;
+        position: relative;
+        left: calc(50% - 200px);
+        text-align: center;
+    }
+
+    .social-medias-container p.social-media-title {
+        font-family: 'Caveat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 100%;
+        color: var(--black);
+        position: relative;
+        left: 30%;
+        margin-top: 32px;
+    }
+}

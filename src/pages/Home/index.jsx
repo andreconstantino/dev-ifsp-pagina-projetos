@@ -5,6 +5,7 @@ import Ilustration2 from '../../assets/images/ilustration-2.png'
 import TeacherAndre from '../../assets/images/professor-andre.png'
 import { Link } from 'react-router-dom'
 import './styles.css'
+import './mobile.css'
 
 // isso aqui vai ir pro componente
 import JK from '../../assets/images/comment/jungkook.png'
