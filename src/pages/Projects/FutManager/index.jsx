@@ -16,9 +16,9 @@ import { GoLocation } from "react-icons/go";
 export default function FutManager() {
 
     const images = [
-        'src/assets/images/futmanager/img1.png',
-        'src/assets/images/futmanager/img2.png',
-        'src/assets/images/futmanager/img3.png'
+        'public/images/futmanager/img1.png',
+        'public/images/futmanager/img2.png',
+        'public/images/futmanager/img3.png'
     ]
 
     return (
