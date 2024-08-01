@@ -26,7 +26,7 @@
     }
 
     .social-medias-container p.social-media-title {
-        font-family: 'Caveat';
+        /* font-family: 'Caveat';
         font-style: normal;
         font-weight: 500;
         font-size: 56px;
@@ -34,6 +34,7 @@
         color: var(--black);
         position: relative;
         left: 30%;
-        margin-top: 32px;
+        margin-top: 32px; */
+        display: none;
     }
 }
