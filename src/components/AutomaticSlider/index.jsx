@@ -7,7 +7,7 @@ export default function AutomaticSlider() {
             <div className='slide-track'>
                 {[...Array(30)].map((_, index) => (
                     <div className='slide' key={index}>
-                        <img src={`public/images/slider/image-${index % 5 + 1}.png`} />
+                        <img src={`/images/slider/image-${index % 5 + 1}.png`} />
                     </div>
                 ))}
             </div>
