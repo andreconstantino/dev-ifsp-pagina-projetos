@@ -38,3 +38,10 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 740px) {
+    .tags-container .tags-1, .tags-container .tags-2, .tags-container .tags-3 {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
