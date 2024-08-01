@@ -13,12 +13,15 @@ import { MdOutlineSportsSoccer } from "react-icons/md";
 import { FaRunning } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 
+// vamo ver se essa bagaça funciona
+import Img1 from '../../../../public/images/futmanager/img1.png'
+import Img2 from '../../../../public/images/futmanager/img2.png'
+import Img3 from '../../../../public/images/futmanager/img3.png'
+
 export default function FutManager() {
 
     const images = [
-        '/images/futmanager/img1.png',
-        '/images/futmanager/img2.png',
-        '/images/futmanager/img3.png'
+        Img1, Img2, Img3
     ]
 
     return (
