@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar, Footer, CardBlue, CardRed, CardComment, Slider } from '../../../components'
 import Mockup from '../../../assets/images/mockup-notebook.png'
 import './styles.css'
-import gifnote from '../../../assets/images/gifnote.gif';
+import './mobile.css'
 import Tae from '../../../assets/images/comment/tae.png'
 import JK from '../../../assets/images/comment/my-love.png'
 
@@ -13,7 +13,7 @@ import { MdOutlineSportsSoccer } from "react-icons/md";
 import { FaRunning } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 
-// vamo ver se essa bagaça funciona
+// images for slider
 import Img1 from '../../../../public/images/futmanager/img1.png'
 import Img2 from '../../../../public/images/futmanager/img2.png'
 import Img3 from '../../../../public/images/futmanager/img3.png'

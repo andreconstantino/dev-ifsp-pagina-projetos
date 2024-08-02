@@ -1,0 +1,89 @@
+@import url('./mobile.css');
+
+@media screen and (max-width: 1570px) {
+    .container-main-project .header .header-image img.mockup-img {
+        margin-right: 0px;
+        width: 600px;
+        height: auto;
+    }
+
+    .gradient-retangle {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .container-main-project .header {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .gradient-retangle {
+        width: 570px;
+        height: 250px;
+        background: linear-gradient(360deg, rgba(133, 139, 255, 0) 0%, #858BFF 100%);
+        border-radius: 30px;
+        position: absolute;
+        z-index: -1;
+        top: 430px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .row-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .row-container .text {
+        width: 100%;
+    }
+
+    .row-container .comments {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .container-main-project .about-context {
+        flex-direction: column;
+    }
+
+    .container-main-project .about-context .about-context-child {
+        width: 100%;
+    }
+
+    .slider-container-main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .container-main-project .header .header-image img.mockup-img {
+        width: 500px;
+    }
+
+    .gradient-retangle {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .container-main-project .header .header-child h1.header-title {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .container-main-project .header .header-image img.mockup-img {
+        width: 400px;
+    }
+
+    .gradient-retangle {
+        width: 340px;
+    }
+
+    .container-main-project .header .header-child h1.header-title {
+        font-size: 60px;
+    }
+}
