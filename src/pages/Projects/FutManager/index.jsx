@@ -82,7 +82,7 @@ export default function FutManager() {
                     </div>
                 </div>
 
-                <div className='experiences-container row-container'>
+                {/* <div className='experiences-container row-container'>
                     <div className='text'>
                         <h1 className='experience-title'>Experiência para os clientes</h1>
                         <p className='experience-subtitle'>Veja como os clientes se sentiram tendo a
@@ -112,7 +112,7 @@ export default function FutManager() {
                             role='dev fullstack'
                         />
                     </div>
-                </div>
+                </div> */}
 
                 {/*img {gifnote}*/}
                 {/* <img src={gifnote} alt="" /> */}

@@ -110,3 +110,13 @@
         width: initial;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .container-main-project .about-context {
+        gap: 50px;
+    }
+
+    .container-main-project .about-context .about-context-child h1.about-context-title {
+        margin-top: 40px;
+    }
+}

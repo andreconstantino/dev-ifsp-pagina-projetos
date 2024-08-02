@@ -52,3 +52,20 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width: 527px) {
+    .container-main-home .header .header-child h1.main-title {
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    .container-main-home .header .header-child h2.main-subtitle {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .tags-1 :first-child {
+        white-space: pre-wrap;
+    }
+}
