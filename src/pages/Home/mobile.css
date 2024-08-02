@@ -105,11 +105,17 @@
     }
 }
 
-@media screen {
+@media screen and (max-width: 460px) {
     .social-medias-container p.social-media-text {
         width: 90%;
         position: sticky;
         padding-left: 3%;
         padding-right: 3%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .slider-comment-container {
+        width: calc(100vw - 1px);
     }
 }

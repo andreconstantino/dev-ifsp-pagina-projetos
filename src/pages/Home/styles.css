@@ -187,23 +187,12 @@ p.slider-subtitle {
     opacity: 0.6;
 }
 
-/* .container-main-home img.ilustration-1 {
-    position: absolute;
-    left: -152px;
-}
-
-.container-main-home img.ilustration-2 {
-
-    right: -18px;
-    object-fit: ;
-} */
-
 .slider-comment-container {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
     position: relative;
-    width: calc(100vw - 20px);
+    width: calc(100vw - 1px);
     overflow: hidden;
 }
 
