@@ -1,19 +1,20 @@
 @import url('./styles.css');
 
 @media screen and (max-width: 1280px) {
+
     .container-main-home .header,
     .container-main-home .about {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 1040px){
+@media screen and (max-width: 1040px) {
     .teacher-container {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 1220px){
+@media screen and (max-width: 1220px) {
     .final-content img {
         display: none;
     }
@@ -36,7 +37,7 @@
         margin-top: 18px;
         margin-bottom: 50px;
     }
-    
+
     .projects-container {
         margin-bottom: 80px;
     }
@@ -47,7 +48,10 @@
 }
 
 @media screen and (max-width: 740px) {
-    .tags-container .tags-1, .tags-container .tags-2, .tags-container .tags-3 {
+
+    .tags-container .tags-1,
+    .tags-container .tags-2,
+    .tags-container .tags-3 {
         flex-wrap: wrap;
         gap: 15px;
     }
@@ -96,7 +100,18 @@
 
     #frame {
         width: 320px;
-        height: 550px;
+        height: 580px;
         overflow: hidden;
     }
 }
+
+@media screen {
+    .social-medias-container p.social-media-text {
+        width: 100%;
+        position: sticky;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+
