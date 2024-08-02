@@ -107,11 +107,9 @@
 
 @media screen {
     .social-medias-container p.social-media-text {
-        width: 100%;
+        width: 90%;
         position: sticky;
         padding-left: 3%;
         padding-right: 3%;
     }
 }
-
-
