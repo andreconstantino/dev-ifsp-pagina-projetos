@@ -25,12 +25,24 @@
         text-align: center;
     }
 
-    .social-medias-container p.social-media-title {
-        display: none;
+    .social-medias-container .final-content {
+        padding-bottom: 90px;
     }
 
-    .social-medias-container .final-content {
-        padding-bottom: 130px;
+    .social-medias-container p.social-media-title {
+        position: relative;
+        left: calc(50% - 140px);
+        width: 275px;
+        margin-top: 18px;
+        margin-bottom: 50px;
+    }
+    
+    .projects-container {
+        margin-bottom: 80px;
+    }
+
+    p.profile-name {
+        display: none;
     }
 }
 
@@ -67,5 +79,24 @@
 @media screen and (max-width: 490px) {
     .tags-1 :first-child {
         white-space: pre-wrap;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    p.slider-subtitle {
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .teacher-container .teacher-img {
+        width: 70%;
+        height: 70%;
+    }
+
+    #frame {
+        width: 320px;
+        height: 550px;
+        overflow: hidden;
     }
 }
