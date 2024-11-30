@@ -3,6 +3,8 @@ import './App.css'
 
 import Home from './pages/Home'
 import FutManager from './pages/Projects/FutManager'
+import FakeNewsAnalyzer from './pages/Projects/FakeNewsAnalyzer'
+import FakeNewsBook from './pages/Projects/FakeNewsBook'
 
 export default function App() {
   return (
@@ -10,6 +12,8 @@ export default function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/futmanager" element={<FutManager />} />
+        <Route path="/FakeNewsAnalyzer" element={<FakeNewsAnalyzer />} />
+        <Route path="/FakeNewsBook" element={<FakeNewsBook />} />
       </Routes>
     </Router>
   )

@@ -1,0 +1,163 @@
+@import url('../../../index.css');
+
+.container-main-project .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 7%;
+  gap: 120px;
+}
+
+.gradient-retangle {
+  width: 570px;
+  height: 250px;
+  background: linear-gradient(360deg, rgba(133, 139, 255, 0) 0%, #858BFF 100%);
+  border-radius: 30px;
+  position: absolute;
+  z-index: -1;
+  top: 330px;
+}
+
+.container-main-project .header .header-image {
+  display: flex;
+  flex-direction: row;
+  margin-right: -10%;
+}
+
+.container-main-project .header .header-image img.mockup-img {
+  margin-right: -25px;
+}
+
+.container-main-project .header .header-child h1.header-title {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 120px;
+}
+
+.container-main-project .header .header-child p.header-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.functionalities {
+  padding: 7% 10% 10% 10%;
+}
+
+.functionalities-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.functionalities h2.title-functionalities {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 100%;
+  margin-bottom: 36px;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+}
+
+.row-container p.experience-subtitle {
+  width: 100%;
+  max-width: 490px;
+  margin-top: 5px;
+  line-height: 28px;
+}
+
+.row-container .comments {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.row-container .text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1750px) {
+  .row-container p.experience-title {
+    white-space: nowrap;
+  }
+}
+
+.container-main-project .about-context {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 10%;
+  margin-top: -50px;
+  gap: 100px;
+}
+
+.container-main-project .about-context .about-context-child {
+  width: 50%;
+}
+
+.container-main-project .header .header-child2 h1.header-title2 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 120px;
+}
+
+.container-main-project .header .header-child2 p.header-text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.container-main-project .about-context .about-context-child h1.about-context-title {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 120px;
+}
+
+.container-main-project .about-context .about-context-child p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.container-main-project .about-context .about-context-child .about-context-subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+  opacity: .7;
+}
