@@ -25,6 +25,12 @@ export default function Navbar() {
                 <NavLink to='/futmanager' className={location.pathname === '/futmanager' ? 'active-link' : ''}>
                     Projeto 1 - Futmanager
                 </NavLink>
+                <NavLink to='/FakeNewsAnalyzer' className={location.pathname === '/FakeNewsAnalyzer' ? 'active-link' : ''}>
+                    Projeto 2 - Fake News Analyzer
+                </NavLink>
+                <NavLink to='/FakeNewsBook' className={location.pathname === '/FakeNewsBook' ? 'active-link' : ''}>
+                    Projeto 3 - Fake News Book
+                </NavLink>
                 <NavLink to='https://music.youtube.com/watch?v=lu0XVRP_Bfc&list=RDAMVMSeZouxOauPw'>
                     Redes Sociais
                 </NavLink>
